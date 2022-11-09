@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .testimonials-card {
+    @apply flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray;
+  }
+}
